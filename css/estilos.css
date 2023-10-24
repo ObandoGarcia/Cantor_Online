@@ -1,0 +1,94 @@
+/*Estilos generales*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilos del logo*/
+.logo-imagen{
+    height: 50px;
+    width: 50px;
+}
+
+/*Estilos seccion noticias*/
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.proyectos-recientes{
+    padding: 40px;
+}
+
+.proyectos-recientes img{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.proyectos-contenedor{
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.overlay{
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay p{
+   font-size: 25px;
+   font-weight: bold;
+   margin-bottom: 0; 
+}
+
+.overlay i{
+    color: black;
+    font-size: 60px;
+    margin: 10px;
+}
+
+.proyecto:hover img{
+    opacity: 0.2;
+}
+
+.proyecto{
+    position: relative;
+}
+
+.proyecto:hover .overlay{
+    opacity: 1;
+}
+
+.tem {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.contenedor1 { 
+    margin-right: 10px;
+}
+
+.contenedor2 {
+    margin-left: 10px;
+}
+
+html p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    padding-top: 75px;
+}

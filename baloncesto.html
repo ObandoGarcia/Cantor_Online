@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!--Metadatos-->
+  <meta charset="UTF-8">
+  <meta name="author" content="Pedro F. Cantor">
+  <meta name="descripton" content="Pagina institucional">
+  <meta name="keywords" content="Cantor, Calidad educativa, Ciencia, Cultura">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Favicon-->
+  <link rel="icon" type="image/x-icon" href="Imagenes/icon.png">
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <!--Iconos de Bootstrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!--CSS de la pagina-->
+  <link rel="stylesheet" href="css/estilos.css">
+  <!--Script del cambio de tema-->
+  <script src="js/tema.js" defer></script>
+  <!--Titulo de la pagina-->
+  <title>Cantor Online</title>
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <!--Simbolos-->
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+  <symbol id="circle-half" viewBox="0 0 16 16">
+    <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z" />
+  </symbol>
+
+  <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+    <path
+      d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z" />
+    <path
+      d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z" />
+  </symbol>
+
+  <symbol id="sun-fill" viewBox="0 0 16 16">
+    <path
+      d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+  </symbol>
+</svg>
+
+  <!--Barra de navegacion-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img class="logo-imagen" src="Imagenes/icon.png"
+          alt="Logo de Cantor"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="noticias.html">Noticias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="proyectos.html">Proyectos</a>
+          </li>
+   
+        </ul>
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item dropdown w-25" data-bs-theme="light">
+            <button
+              class="btn btn-link nav-link py-1 px-0 px-lg-2 dropdown-toggle d-flex align-items-center"
+              id="bd-theme"
+              type="button"
+              aria-expanded="false"
+              data-bs-toggle="dropdown"
+              data-bs-display="static"
+            >
+              <svg
+                class="bi my-1 theme-icon-active"
+                width="16"
+                height="16"
+                fill="currentColor"
+              >
+                <use href="#circle-half"></use>
+              </svg>
+              <span class="d-lg-none ms-2">Toggle theme</span>
+            </button>
+
+            <ul
+              class="dropdown-menu dropdown-menu-end px-1"
+              aria-labelledby="bd-theme"
+            >
+              <li>
+                <button
+                  type="button"
+                  class="dropdown-item d-flex align-items-center"
+                  data-bs-theme-value="light"
+                >
+                  <svg
+                    class="bi me-2 opacity-50 theme-icon"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                  >
+                    <use href="#sun-fill"></use>
+                  </svg>
+                  Light
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  class="dropdown-item d-flex align-items-center"
+                  data-bs-theme-value="dark"
+                >
+                  <svg
+                    class="bi me-2 opacity-50 theme-icon"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                  >
+                    <use href="#moon-stars-fill"></use>
+                  </svg>
+                  Dark
+                </button>
+              </li>
+              <li>
+                <button
+                  type="button"
+                  class="dropdown-item d-flex align-items-center active"
+                  data-bs-theme-value="auto"
+                >
+                  <svg
+                    class="bi me-2 opacity-50 theme-icon"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                  >
+                    <use href="#circle-half"></use>
+                  </svg>
+                  Auto
+                </button>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Escribe para buscar..." aria-label="Search">
+          <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="p3 pb-mb-4 mx-auto text-center">
+      <h1 class="display-4 fw-normal text-body-emphasis">Baloncesto</h1>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+      <br>
+      <br>
+      <p>
+        El baloncesto es un emocionante deporte de equipo que se juega en todo el mundo. Su popularidad
+        se debe en gran parte a la simplicidad de sus reglas y la emoción que genera en jugadores y fanáticos
+        por igual. Este informe proporcionará una visión general del baloncesto, incluyendo su historia,
+        reglas básicas, equipo necesario y beneficios asociados a la práctica de este deporte.
+      </p>
+      <br>
+      <h5 class="text-success-emphasis display-6 text-center">Su historia</h5>
+      <p class=" text-body-secondary text">
+        El baloncesto fue inventado en diciembre de 1891 por el profesor canadiense James Naismith en la
+        YMCA (Asociación de Jóvenes Cristianos) en Springfield, Massachusetts. Naismith desarrolló el juego
+        como una actividad de invierno para mantener a sus alumnos activos. El primer juego de baloncesto
+        se jugó con una pelota de fútbol y dos cestas de melocotones como canastas. El deporte se ha
+        transformado significativamente desde entonces, evolucionando en un deporte global con reglas y
+        competiciones estandarizadas.
+      </p>
+      <h5 class="text-success-emphasis display-6 text-center">Reglas</h5>
+      <p>
+        El baloncesto se juega en un campo rectangular con dos equipos compuestos por cinco jugadores en
+        cada uno. El objetivo del juego es anotar puntos al encestar la pelota en la canasta del equipo
+        contrario y evitar que el equipo contrario haga lo mismo en su canasta.
+        Las reglas básicas incluyen:
+        Duración del juego: El baloncesto se juega en cuatro cuartos de 12 minutos (en la NBA) con pausas
+        en el medio y al final del segundo y tercer cuarto, y un descanso largo al medio del partido.
+        Puntuación: Anotar un enceste desde fuera de la línea de tres puntos vale 3 puntos, desde dentro de
+        esa línea vale 2 puntos, y un tiro libre vale 1 punto.
+        Violaciones: Violaciones comunes incluyen caminar con la pelota, doble dribbling y violaciones de 24
+        segundos para realizar un tiro.
+        Faltas: Los jugadores pueden cometer faltas para evitar que el equipo contrario anote, y se otorgan
+        tiros libres al equipo ofensivo si se cometen faltas.
+      </p>
+  </div>
+  <br>
+  <br>
+
+  <div class="container align-content-between">
+    <div class="row">
+    <div class="col-lg-12">
+      <img
+        src="Imagenes/balon.jpg"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Baloncesto 01"
+      /> 
+    </div>
+  
+    </div>
+  </div>
+
+<!--Pie de pagina-->
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" href="/index.html">
+        <img src="Imagenes/icon.png" alt="Icon" width="30px" height="30px">
+      </a>
+      <span class="mb-3 mb-md-0 text-success-emphasis display-6">&copy; 2023 Pedro F. Cantor</span>
+    </div>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.520633989461!2d-89.68010082578188!3d13.747447197396024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f62c7c147e86b35%3A0x589b9262137b5739!2sComplejo%20Educativo%20Pedro%20F%C3%A9lix%20Cantor!5e0!3m2!1ses-419!2ssv!4v1697038183589!5m2!1ses-419!2ssv"
+      width="150" height="100" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3">
+        <a class="text-body-secondary" href="https://www.facebook.com/100Cantor"><i class="bi bi-facebook"
+            style="font-size: 2rem; color: rgb(40, 167, 69);"></i> </a>
+      </li>
+      <li class="ms-3">
+        <a class="text-body-secondary" href="#"><i class="bi bi-whatsapp"
+            style="font-size: 2rem; color: rgb(40, 167, 69);"></i> </a>
+      </li>
+      <li class="ms-3">
+        <a class="text-body-secondary" href="#"><i class="bi bi-instagram"
+            style="font-size: 2rem; color: rgb(40, 167, 69);"></i> </a>
+      </li>
+      <li class="ms-3">
+        <a class="text-body-secondary" href="#"><i class="bi bi-twitter"
+            style="font-size: 2rem; color: rgb(40, 167, 69);"></i> </a>
+      </li>
+    </ul>
+  </footer>
+</div>
+
+<!--Scripts de bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

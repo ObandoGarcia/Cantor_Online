@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<lang="es">
+
+  <head>
+    <!--Metadatos-->
+    <meta charset="UTF-8">
+    <meta name="author" content="Pedro F. Cantor">
+    <meta name="descripton" content="Pagina institucional">
+    <meta name="keywords" content="Cantor, Calidad educativa, Ciencia, Cultura">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="Imagenes/icon.png">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!--Iconos de Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!--CSS de la pagina-->
+    <link rel="stylesheet" href="css/estilos.css">
+    <!--Script del cambio de tema-->
+    <script src="js/tema.js" defer></script>
+    <!--Titulo de la pagina-->
+    <title>Cantor Online</title>
+      <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  </head>
+
+  <!--Historia Cantor-->
+
+  <body>
+    <!--Simbolos-->
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+  <symbol id="circle-half" viewBox="0 0 16 16">
+    <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z" />
+  </symbol>
+
+  <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+    <path
+      d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z" />
+    <path
+      d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z" />
+  </symbol>
+
+  <symbol id="sun-fill" viewBox="0 0 16 16">
+    <path
+      d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+  </symbol>
+</svg>
+    <!--Barra de navegacion-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img class="logo-imagen" src="Imagenes/icon.png"
+            alt="Logo de Cantor"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="noticias.html">Noticias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="proyectos.html">Proyectos</a>
+            </li>
+           
+          </ul>
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item dropdown w-25" data-bs-theme="light">
+              <button
+                class="btn btn-link nav-link py-1 px-0 px-lg-2 dropdown-toggle d-flex align-items-center"
+                id="bd-theme"
+                type="button"
+                aria-expanded="false"
+                data-bs-toggle="dropdown"
+                data-bs-display="static"
+              >
+                <svg
+                  class="bi my-1 theme-icon-active"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                >
+                  <use href="#circle-half"></use>
+                </svg>
+                <span class="d-lg-none ms-2">Toggle theme</span>
+              </button>
+  
+              <ul
+                class="dropdown-menu dropdown-menu-end px-1"
+                aria-labelledby="bd-theme"
+              >
+                <li>
+                  <button
+                    type="button"
+                    class="dropdown-item d-flex align-items-center"
+                    data-bs-theme-value="light"
+                  >
+                    <svg
+                      class="bi me-2 opacity-50 theme-icon"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                    >
+                      <use href="#sun-fill"></use>
+                    </svg>
+                    Light
+                  </button>
+                </li>
+                <li>
+                  <button
+                    type="button"
+                    class="dropdown-item d-flex align-items-center"
+                    data-bs-theme-value="dark"
+                  >
+                    <svg
+                      class="bi me-2 opacity-50 theme-icon"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                    >
+                      <use href="#moon-stars-fill"></use>
+                    </svg>
+                    Dark
+                  </button>
+                </li>
+                <li>
+                  <button
+                    type="button"
+                    class="dropdown-item d-flex align-items-center active"
+                    data-bs-theme-value="auto"
+                  >
+                    <svg
+                      class="bi me-2 opacity-50 theme-icon"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                    >
+                      <use href="#circle-half"></use>
+                    </svg>
+                    Auto
+                  </button>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Escribe para buscar..." aria-label="Search">
+            <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="container">
+      <div class="p3 pb-mb-4 mx-auto text-center">
+        <h1 class="display-4 fw-normal text-body-emphasis">Historia de la Cantor</h1>
+      </div>
+    </div>
+    <br>
+    <div class="container">
+        <br>
+        <br>
+        <h5 class="text-center"><strong class="text-success-emphasis display-6">1917</strong></h5>
+        <p>
+           Escuela de Indígenas de Izalco. 3a. Av. Note. No. 40.
+          (antiguo terreno y casa de la familia Sánchez)
+        </p>
+
+        <h5 class="text-center"><strong class="text-success-emphasis display-6">1948</strong></h5>
+        <p>
+          Local de la Escuela de Varones
+          No.2.
+          (Antigua propiedad de don Daniel
+          Vega)
+        </p>
+        <h5 class="text-center"><strong class="text-success-emphasis display-6">1954</strong></h5>
+        <p>
+          Local de la Escuela Pedro
+          F. Cantor. Intersseción de la 2.Av Nte. y 9a. C. Ote. (Esquina opuesta a la antigua Farmacia Santa Isabel)
+
+        </p>
+        <p>
+          Aquí se empezó a celebrar cada 25 y 26 de julio el cumpleaños de Don Pedro F. Cantor, siendo Director Don
+          Guillermo Marroquín.
+          Esto, según nos narra Don Manuel
+          Antonio García Urías.
+        </p>
+        <br>
+        <h5 class="text-center"><strong class="text-success-emphasis display-6">Los Directores</strong></h5>
+
+        <p>
+          La nómina de profesores que fungieron en calidad de Director de nuestro Centro Educativo, es larga; algunos
+          laboraron en este cargo por muchos años, y otros lo hicieron en poco tiempo. Sobresalen por su tiempo de
+          trabajo y obra realizada los siguientes:
+          100 Años
+          Profesor Gustavo González
+          Bajo su responsabilidad en 1940, aparece la Escuela de Varones No.2, conocida como "La Escuela de don Tavo".
+          Trabajó en la Dirección por 14 años.
+        </p>
+        <p>
+          Profesor Oscar Ricardo Aguilar Galdámez
+          Toma la Dirección de la Escuela Unificada "Pedro F. Cantor", el 1 de febrero de 1979 y se retira el 1 de julio
+          de 1991, habiendo laborado por 12 años.
+        </p>
+        <p>
+          100 Años
+          Profesor Alfredo Calvo Pacheco
+          Toma posesión de su cargo como Director de la "Sección Oficial de Enseñanza Media de Izalco", el 4 de julio de
+          1968. Lo ejerce hasta el 26 de noviembre de 1977 en la ya "Escuela Unificada Pedro F. Cantor", pues ambas
+          instituciones se unificaron por disposición del Ministerio
+        </p>
+        <p>
+          Lic. Carlos Alberto García Ruiz
+          Asume la Dirección de la Escuela Urbana Mixta Unificada "Pedro F. Cantor", el 14 de abril de 1994. Hasta el
+          año del Centenario, continúa laborando, por un período de 23 años, en el ahora Complejo Educativo Pedro
+          F. Cantor.
+        </p>
+
+        <p>
+          Nuestro sincero reconocimiento y respeto a los profesores Arturo Vega Prado, Pablo Sánchez, Manuel de Jesús
+          González, Francisco López, Efraín Martínez, Guillermo Marroquín, Francisco Vega, Raúl Antonio Mendoza, Carlos
+          Alfredo Castaneda y Juan Grande Arias. Todos, Directores Cantor.
+        </p>
+        <br>
+        <br>
+
+        <h5 class="text-center"><strong class="text-success-emphasis display-6">El uniforme</strong></h5> 
+        <p>
+          Hoy, por las razones que todos conocemos, se utiliza el uniforme diseñado en 2009 por el Gobierno de la
+          República y para el caso de Educación Media, optamos por utilizar ambos diseños.
+          Todo evoluciona, pero pervivirán en nuestra memoria, los distintos uniformes con los que hemos escrito también
+          gran parte de nuestra historia.
+        </p>
+        <p>
+          Muchos han sido los uniformes que durante nuestra historia hemos utilizado. En la memoria quedan aquéllas
+          lejanas décadas de principios del siglo XX, cuando el alumnado de origen muy humilde asistía a clases de
+          particular y en la mayoría de los casos, sin calzado.
+        </p>
+        <p>
+
+          Desde 1917 hasta aproximadamente la Reforma Educativa de 1968, todo indica que a partir de ese año se comenzó
+          a utilizar el color gris -falda y pantalón-, y la camisa o blusa blanca y los zapatos negros. Fue utilzado por
+          alumnos de primero a noveno grado.
+        </p>
+        <p>
+          Luego tomamos la desición de concretizar el color verde con blanco y logo amarillo como oficial, para el
+          Bachillerato partiendo de la idea de denominarnos "Leones"
+          sustentada en nuestro espíritu y mís-
+          tica de trabajo.
+        </p>
+        <br>
+        <br>
+
+        <h5 class="text-center"><strong class="text-success-emphasis display-6">Parvularia</strong></h5> 
+        <p>
+          Inicia este proyecto en 1998, como parte de los requisitos que debía cumplirse para el otorgamiento del
+          nombramiento que nos dejaría en calidad de Complejo Educativo. La Parvularia inició con dos secciones
+          integradas por alumnos de 4, 5 y 6 años.
+          Estas secciones fueron atendidas por las Profesoras Blanca Yanira Pineda y Silvia Margarita Melgar Deleón. Así
+          iniciamos, y hoy, atendemos alrededor de 315 alumnos-as en este nivel. Acá un recuerdo de 2009.
+        </p>
+        <br>
+        <br>
+
+        <h5 class="text-center"><strong class="text-success-emphasis display-6">Nacimiento del bachillerato</strong></h5> 
+        <p>
+          Nos narra el Lic. Carlos A. García:
+          "Hacia 1994, una nueva Administración sur-gía. Había muchas expectativas y proyectos que eran producto de
+          observar las condiciones en que la Dirección de era recibida. Observamos que por lo menos 120 alumnos/as de
+          9°. grado, egresaban; de esto, sólo el 30% continuaban sus estudios de bachillerato en Sonsonate e Izalco
+          donde ya había un público y otro privado.
+          <br>
+          <br>
+          En ese año, platicamos con los estudiantes que ya no continuarían sus estudios y así fue como se consideró la
+          posibilidad de ofrecer a este 70% continuara estudiando en nuestra Institución.
+          Nos abocamos al Profesor Braulio Antonio Jerez Mangandi quien en ese tiempo fungia como Supervisor Nacional de
+          Educación, planteándole nuestra idea de ampliar nuestros servicios edu-cativos.
+          La idea le pareció factible y nos recomendó hablar con la Dirección Departamental de Educación de Sonsonate;
+          con el aval de esta oficina, presentamos la Solicitud de Ampliación de Ser-vicios; en 1997 nos aventuramos a
+          iniciar con el Bachillerato General; para ello, se buscó al Personal Docente nuestro y algunos profesores
+          horas-clase, fueron pagados con fondos propios.
+          <br>
+          <br>
+          De los estudiantes que egresaron del 9°. grado illerato...
+          en 1996, solamente 7 creyeron en el proyecto:
+          Nery Bladimir Fraile Jiménez, Virginia Geraldine Fraile Rodríguez, María Alicia Leiva Palacios, Roxana del
+          Carmen Morales Díaz, Marta Elena Musto Najo, William Oswaldo Ramírez Másin, José Francisco Recinos Moli-na,
+          Carolina Patricia Sánchez Gómez y Lorena Patricia Santamaría Recinos.
+          Como esta cantidad de estudiantes, optamos por salir a "conquistar" exalumnos que habían egresado de 9° grado
+          en años anteriores; los profesores Lilian Arelí González, Sara Yudis de Rodriguez, Carmen Aragón de Sigüenza y
+          Francisco David González, lograron "conven-cer" a 12 exalumnos y fue así cómo se formó la 1ª. sección de ler
+          Año de Bachillerato General, integrada por 17 alumnos/as.
+          <br>
+          <br>
+          Iniciamos en enero de 1997 en medio de muchas dudas y comentarios tanto internos como externos, sobresaliendo
+          la idea que nuestro Bachillerato era una "Isla de la Fantasía" y otros comentarios más fuertes como: "Carlos
+          está loco", "Crear un Bachillerato...
+          ¡Están locos!", "Ya se van a venir abajo", entre otros tantos.
+          Traemos esto a colación estimados lectores, para que conozcamos los retos que tuvimos que afrontar y que
+          felizmente hoy, al ver hacia atrás, sin dudar decimos que supimos superarlos.
+        </p>
+
+    </div>
+
+    <div class="container">
+      <section class="p-4 d-flex justify-content-center w-100">
+        <div class="col-6">
+    
+          <div class="card bg-dark text-white">
+            <img src="Imagenes/his1.jpg" class="card-img" alt="Stony Beach" />
+            <div class="card-img-overlay">
+    
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="p-4 d-flex justify-content-center w-100">
+        <div class="col-6">
+    
+          <div class="card bg-dark text-white">
+            <img src="Imagenes/his2.jpg" class="card-img" alt="Stony Beach" />
+            <div class="card-img-overlay">
+    
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!--Pie de pagina-->
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" href="/index.html">
+            <img src="Imagenes/icon.png" alt="Icon" width="30px" height="30px">
+          </a>
+          <span class="mb-3 mb-md-0 text-success-emphasis display-6">&copy; 2023 Pedro F. Cantor</span>
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.520633989461!2d-89.68010082578188!3d13.747447197396024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f62c7c147e86b35%3A0x589b9262137b5739!2sComplejo%20Educativo%20Pedro%20F%C3%A9lix%20Cantor!5e0!3m2!1ses-419!2ssv!4v1697038183589!5m2!1ses-419!2ssv"
+          width="150" height="100" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-body-secondary" href="https://www.facebook.com/100Cantor"><i class="bi bi-facebook"
+                style="font-size: 2rem; color: rgb(40, 167, 69);"></i> </a>
+          </li>
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#"><i class="bi bi-whatsapp"
+                style="font-size: 2rem; color: rgb(40, 167, 69);"></i> </a>
+          </li>
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#"><i class="bi bi-instagram"
+                style="font-size: 2rem; color: rgb(40, 167, 69);"></i> </a>
+          </li>
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#"><i class="bi bi-twitter"
+                style="font-size: 2rem; color: rgb(40, 167, 69);"></i> </a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+
+    <!--Scripts de bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"></script>
+  </body>
+
+  </html>
+
+
+
+
+
+
+
